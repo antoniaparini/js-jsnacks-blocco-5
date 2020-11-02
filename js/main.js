@@ -72,12 +72,10 @@ console.log(numero);
 
 
 if(isNaN(numero) || numero < 0 || numero > 2) {
-    // se il valore inserito non è un numero, oppure è < 0, oppure è > 2
-    // => non esiste una posizione corrispondente all'interno dell'array
+    
     console.log('warning: non hai inserito un numero valido!');
 } else {
-    // il valore è un numero ed è >= 0 ed è <= 2
-    // => corrispondente ad una posizione valida all'interno dell'array
+    
     var nome_scelto = nomi[numero];
     console.log(nome_scelto);
 }
